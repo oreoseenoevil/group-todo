@@ -1,4 +1,9 @@
-# React Typescript Boilerplate/Base
+# React Group Todo
+
+- Create Group (able to update and delete)
+- Create Todo under the group (able to update and delete)
+- Using Reduxtoolkit for state management
+- Using react-router v6 for routing
 
 ## Prerequisites
 

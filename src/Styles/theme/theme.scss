@@ -1,0 +1,133 @@
+:root {
+  --black: #000;
+  --white: #fff;
+
+  --grey-0: #ffffff;
+  --grey-5: #f6f5f7;
+  --grey-6: #efefef;
+  --grey-7: #f3f0f5;
+  --grey-10: #f0ebf2;
+  --grey-20: #e0d8e5;
+  --grey-30: #c6bacc;
+  --grey-40: #aa9ab2;
+  --grey-50: #918299;
+  --grey-60: #786980;
+  --grey-70: #5f5166;
+  --grey-80: #463a4d;
+  --grey-90: #2e2533;
+  --grey-95: #201923;
+  --grey-100: #17121a;
+
+  --purple-10: #fcf5ff;
+  --purple-20: #edccff;
+  --purple-30: #e499ff;
+  --purple-40: #d766ff;
+  --purple-50: #ca33ff;
+  --purple-60: #bd00ff;
+  --purple-70: #9700cc;
+  --purple-75: #8a00ba;
+  --purple-80: #710099;
+  --purple-90: #500076;
+  --purple-100: #250032;
+
+  --green-20: #cef2da;
+  --green-100: #179942;
+
+  --red-10: #ffeded;
+  --red-20: #ffd9d9;
+  --red-30: #ffb8b8;
+  --red-40: #ff9494;
+  --red-50: #ff7171;
+  --red-60: #ff4e4e;
+  --red-70: #cc3e3e;
+  --red-80: #992e2e;
+  --red-90: #661f1f;
+  --red-100: #320f0f;
+
+  --blue: #004de5;
+  --light-blue: #8cd4fd;
+
+  --data-blue: #0c5be8;
+  --data-blue-20: #0c5be833;
+  --data-blue-50: #0c5be880;
+  --data-orange: #e66700;
+  --data-orange-20: #e6670033;
+  --data-orange-30: #eb8533;
+  --data-orange-50: #e6670080;
+  --data-pink: #e70074;
+  --data-pink-50: #e7007480;
+  --data-teal: #00a299;
+  --data-teal-20: #00a29933;
+  --data-teal-50: #00a29980;
+  --data-purple: #7500ff;
+  --data-purple-50: #7500ff80;
+  --data-yellow: #fedc00;
+  --data-blue-sky: #2f90ff;
+
+  --text-10: #1d2c4b;
+  --text-50: #a27ab0;
+  --text-100: #3f1d4b;
+
+  --text-color: var(--text-100);
+
+  --button-color: var(--grey-80);
+  --button-background: none;
+  --button-border: none;
+  --button-border-radius: 2px;
+  --button-padding: 3px 8px;
+  --button-large-padding: 6px 16px;
+  --button-xlarge-padding: 12px 24px;
+  --button-padding-with-icon: 3px 8px;
+  --button-font-weight: 500;
+  --button-line-height: 20px;
+  --button-text-font-size: 14px;
+
+  --input-color: var(--grey-100);
+  --input-background: var(--grey-5);
+  --input-shadow: inset 0px 0px 0px 1px var(--grey-20);
+  --input-hover-background: var(--white);
+  --input-hover-shadow: inset 0px 0px 0px 1px var(--grey-30);
+  --input-focus-background: var(--white);
+  --input-focus-shadow: 0px 0px 0px 2px var(--light-blue), inset 0px 0px 0px 1px var(--grey-80);
+  --input-error-color: var(--red-60);
+  --input-error-shadow: inset 0px 0px 0px 1px var(--red-60);
+  --input-placeholder-color: var(--grey-60);
+  --input-disabled-color: var(--grey-30);
+  --input-disabled-placeholder-color: var(--grey-30);
+  --input-disabled-background: var(--grey-20);
+  --input-disabled-shadow: inset 0px 0px 0px 1px var(--grey-30);
+  --input-border-color: var(--grey-40);
+  --input-hover-border-color: var(--white);
+  --input-focus-color: var(--white);
+
+  --checkbox-icon-color: var(--grey-0);
+  --checkbox-background-color: var(--grey-0);
+  --checkbox-border-color: var(--grey-50);
+  --checkbox-checked-background-color: var(--purple-60);
+  --checkbox-checked-border-color: var(--purple-60);
+  --checkbox-hover-background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), #ffffff;
+  --checkbox-hover-border-color: var(--grey-50);
+  --checkbox-hover-checked-background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
+    var(--purple-60);
+  --checkbox-hover-checked-border-color: var(--purple-50);
+  --checkbox-active-background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), #ffffff;
+  --checkbox-active-border-color: var(--grey-50);
+  --checkbox-active-checked-background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)),
+    var(--purple-60);
+  --checkbox-active-checked-border-color: var(--purple-50);
+  --checkbox-focus-box-shadow: 0px 0px 0px 2px #8cd4fd;
+  --checkbox-focus-background-color: var(--grey-0);
+  --checkbox-focus-border-color: var(--grey-50);
+  --checkbox-focus-checked-background-color: var(--purple-60);
+  --checkbox-focus-checked-border-color: var(--purple-60);
+  --checkbox-disabled-background-color: var(--grey-0);
+  --checkbox-disabled-border-color: var(--grey-30);
+  --checkbox-disabled-checked-background-color: var(--grey-0);
+  --checkbox-disabled-checked-border-color: var(--grey-30);
+  --checkbox-disabled-icon-color: var(--grey-30);
+  --checkbox-error-background-color: var(--grey-0);
+  --checkbox-error-border-color: var(--red-60);
+  --checkbox-error-checked-background-color: var(--grey-0);
+  --checkbox-error-checked-border-color: var(--red-60);
+  --checkbox-error-icon-color: var(--red-60);
+}

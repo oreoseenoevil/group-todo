@@ -1,0 +1,14 @@
+.header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 6rem;
+  gap: 2rem;
+
+  .link {
+    color: #fff;
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    text-transform: uppercase;
+  }
+}

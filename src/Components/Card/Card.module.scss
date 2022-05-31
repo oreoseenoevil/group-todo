@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: var(--black);
+  border: 1px solid var(--grey-10);
+  transition: all 300ms ease-in-out;
+  width: 100%;
+
+  &:hover {
+    border-color: var(--blue);
+  }
+}
+
+.button_group {
+  display: flex;
+  gap: 1.25rem;
+
+  > * {
+    cursor: pointer;
+  }
+}

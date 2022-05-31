@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  flex: 3;
+
+  &_content {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+  }
+}
